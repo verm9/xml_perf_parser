@@ -1,0 +1,4 @@
+files/
+build/
+.idea/
+__pycache__/
