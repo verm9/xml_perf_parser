@@ -113,7 +113,7 @@ def save_to_csv(levels_data: List[Level], objects_data: List[Object], output_dir
     shutil.move(output_directory / (objects_filename + '.tmp'), output_directory / objects_filename)
 
 
-def process_archives(dir_path: Path, parallelism: bool = False) -> None:
+def process_archives(dir_path: Path, parallelism: bool = True) -> None:
     """
     :param dir_path: Path: a directory with archives
     :param parallelism: if True use parallel calculations on different processes.
