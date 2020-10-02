@@ -9,3 +9,4 @@ $ pip install -r requirements.txt
 4. Для запуска теста:  
 $ pytest  
   из директории с проектом
+5. Для старта ТЗ запустите ngenix.py
